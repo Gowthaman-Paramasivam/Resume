@@ -1,120 +1,116 @@
 export const resumeData = {
   personal: {
     name: "Gowthaman Paramasivam",
-    title: "Senior Software Developer",
-    tagline: "Senior software developer with 5+ years of practical full-stack application development and desktop software expertise.",
+    title: "Senior Software Developer | Full-Stack & Desktop",
+    tagline: "Dedicated and effective senior software developer with 5+ years of practical full-stack application development & desktop software expertise.",
     email: "gowthamanp16@gmail.com",
-    phone: "+91 98765 43210",
-    location: "India",
+    phone: "+91 8508772811",
+    location: "Tamil Nadu, India",
     github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/gowthaman-paramasivam-a745ab1a3",
     portfolio: "https://yourusername.github.io/poc",
     about: `Dedicated and effective senior software developer with 5+ years of practical full-stack application development expertise. Focused and efficient learner with practical experience in desktop apps seeking a full stack development role that will expand skillset and contribute to the organization's success.`
   },
   skills: [
     {
-      category: "Frontend Development",
-      items: ["React.js", "TypeScript", "Next.js", "JavaScript (ES6+)", "Tailwind CSS", "HTML5 & CSS3", "Redux Toolkit", "Vite"]
+      category: "Programming Languages & Frontend",
+      items: ["JavaScript (ES6+)", "TypeScript", "React", "HTML5", "CSS3", "AJAX", "jQuery", "Storybook", "Tailwind CSS"]
     },
     {
-      category: "Backend & APIs",
-      items: ["Node.js", "Express.js", "RESTful APIs", "GraphQL", "Python", "Microservices"]
+      category: "Backend, APIs & Protocols",
+      items: ["Node.js", "Express.js", "JSON", "RESTful APIs", "OPC UA PubSub", "MQTT", "Publish/Subscribe", "Client/Server Architecture"]
     },
     {
-      category: "Cloud & DevOps",
-      items: ["Git & GitHub Actions", "Docker", "AWS (S3, CloudFront, EC2)", "CI/CD Pipelines", "Vercel / GitHub Pages"]
+      category: "Desktop & Unit Testing",
+      items: ["Electron", "Mocha (Unit Testing)", "TDD Approach", "Balsamiq (UI/UX Design)", "Webpack", "Vite"]
     },
     {
-      category: "Databases & Tools",
-      items: ["PostgreSQL", "MongoDB", "Redis", "Jest & React Testing Library", "Postman", "Webpack / Rollup"]
+      category: "Databases, DevOps & Tools",
+      items: ["MySQL", "MongoDB", "Docker", "Linux", "Windows", "Git", "GitHub", "GitLab", "Gerrit", "Jira", "VS Code"]
     }
   ],
   experience: [
     {
-      role: "Senior Software Engineer",
-      company: "Tech Solutions Inc.",
-      location: "Bengaluru, India (Hybrid)",
-      period: "2023 - Present",
-      description: "Leading frontend architecture and building modern cloud-native web portals.",
-      highlights: [
-        "Architected enterprise React micro-frontends serving over 150,000 active daily users with 99.98% uptime.",
-        "Refactored legacy single-page application into modular Vite-based component system, reducing build times by 65%.",
-        "Mentored junior engineers and instituted code review standards, increasing team sprint velocity by 25%."
-      ],
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Docker", "GitHub Actions"]
-    },
-    {
-      role: "Full-Stack Developer",
-      company: "Innovate Digital Labs",
-      location: "Chennai, India",
-      period: "2021 - 2023",
-      description: "Developed and maintained client-facing dashboards and RESTful API services.",
-      highlights: [
-        "Designed and implemented high-throughput REST APIs handling 2M+ monthly requests.",
-        "Created an interactive real-time telemetry dashboard using React, WebSocket, and Recharts.",
-        "Automated deployment workflows via GitHub Actions and Docker, reducing release cycles from 3 days to 30 minutes."
-      ],
-      technologies: ["React.js", "Node.js", "Express", "PostgreSQL", "Redis", "AWS"]
-    },
-    {
-      role: "Software Developer",
-      company: "Alpha Tech Solutions",
+      role: "IoT Engineer",
+      company: "Kalycito Infotech Private Limited",
       location: "Coimbatore, India",
-      period: "2019 - 2021",
-      description: "Contributed to building responsive web applications and backend services.",
+      period: "July 2021 - Present",
+      description: "Spearheaded end-to-end full-stack and desktop application development using agile and test-driven methodologies.",
       highlights: [
-        "Built 15+ responsive customer-facing web modules ensuring WCAG 2.1 AA accessibility compliance.",
-        "Collaborated with UI/UX designers to translate Figma mockups into reusable component libraries.",
-        "Integrated third-party payment gateways and transactional email services with zero downtime."
+        "Designed and developed full-stack web and desktop applications utilizing Electron, React, and Node.js following Agile project methodologies.",
+        "Implemented strict Test-Driven Development (TDD) practices with Mocha to significantly elevate code coverage and product reliability.",
+        "Engineered OPC UA PubSub stack components in Node.js, achieving robust cross-platform interoperability across open-source OPC UA stacks.",
+        "Reviewed codebase, debugged mission-critical bottlenecks, and ensured high responsiveness, quality, and low latency across IoT communications.",
+        "Collaborated directly with enterprise clients to translate industrial specifications into reliable production deliverables."
       ],
-      technologies: ["JavaScript", "React", "HTML5", "CSS3", "REST APIs", "Git"]
+      technologies: ["Node.js", "Electron", "React", "TypeScript", "OPC UA", "MQTT", "Docker", "Mocha", "TDD"]
+    },
+    {
+      role: "Software Engineering Intern",
+      company: "Kalycito Infotech Private Limited",
+      location: "Coimbatore, India",
+      period: "January 2021 - June 2021",
+      description: "Contributed to core JavaScript and Node.js framework modernization initiatives.",
+      highlights: [
+        "Modernized legacy architectures by converting LAMP stack concepts into scalable Node.js modules.",
+        "Built dynamic form generators and desk interfaces leveraging Mustache template engines.",
+        "Participated in sprint planning, code reviews, and cross-team design discussions to deliver deliverables on schedule."
+      ],
+      technologies: ["JavaScript", "Node.js", "Express", "HTML/CSS", "Mustache", "Git"]
     }
   ],
   projects: [
     {
-      title: "Interactive Resume & Portfolio",
-      description: "Modern, lightweight, responsive portfolio with dark mode, print-ready PDF support, and automated GitHub Pages deployment.",
-      technologies: ["React", "Vite", "Tailwind CSS", "GitHub Pages"],
+      title: "OPC UA Compliant PubSub Configurator Tool",
+      description: "High-performance desktop & web configurator application enabling seamless configuration of OPC UA publish-subscribe systems in industrial environments.",
+      technologies: ["Electron", "React", "Node.js", "TypeScript", "OPC UA", "Mocha", "TDD"],
       github: "https://github.com",
-      live: "https://yourusername.github.io/poc",
-      metrics: "Sub-second load times & 100 Lighthouse score"
+      live: null,
+      metrics: "Agile TDD workflow with 100% specification compliance"
     },
     {
-      title: "Cloud Analytics Dashboard",
-      description: "Real-time analytics platform monitoring system metrics, request latencies, and server health with customizable alert thresholds.",
-      technologies: ["React", "Node.js", "Tailwind CSS", "WebSockets"],
+      title: "OPC UA PubSub Stack & Interoperability Engine",
+      description: "Development of a high-throughput PubSub stack in Node OPCUA, establishing cross-platform interoperability between two major open-source OPC UA implementations.",
+      technologies: ["Node.js", "OPC UA", "MQTT", "Unit Testing (Mocha)", "Linux", "Windows"],
       github: "https://github.com",
-      live: "https://github.com",
-      metrics: "Live metric streaming with <100ms latency"
+      live: null,
+      metrics: "Cross-platform interoperability across industrial IoT devices"
     },
     {
-      title: "E-Commerce Microservices Engine",
-      description: "Scalable backend service with order processing, inventory sync, Redis caching, and resilient fault-tolerant queue handling.",
-      technologies: ["Node.js", "PostgreSQL", "Docker", "Redis"],
+      title: "Fibenis Framework Modernization",
+      description: "Architectural transformation converting a LAMP stack foundation into a modern, dynamic Node.js framework utilizing mustache templating and automated desks.",
+      technologies: ["Node.js", "Express.js", "JavaScript", "Mustache Templates", "MySQL"],
       github: "https://github.com",
-      live: "https://github.com",
-      metrics: "Handles 5,000+ checkout operations/sec"
+      live: null,
+      metrics: "Streamlined data models & modern REST integration"
     }
   ],
   education: [
     {
-      degree: "Bachelor of Engineering (B.E.) in Computer Science & Engineering",
-      institution: "Anna University",
-      location: "Tamil Nadu, India",
-      period: "2015 - 2019",
-      details: "Graduated with First Class Distinction. Focus on Data Structures, Algorithms, Distributed Systems, and Web Technologies."
+      degree: "Master of Applied Mathematics",
+      institution: "PSG College of Technology",
+      location: "Coimbatore, Tamil Nadu",
+      period: "2019 - 2021",
+      details: "Graduated with 8.71 CGPA. Strong foundation in numerical analysis, computational mathematics, algorithms, and data modeling."
+    },
+    {
+      degree: "Bachelor of Applied Science",
+      institution: "PSG College of Technology",
+      location: "Coimbatore, Tamil Nadu",
+      period: "2016 - 2019",
+      details: "Graduated with 8.22 CGPA. Coursework in applied sciences, foundational computer science, and mathematical analysis."
     }
   ],
   certifications: [
     {
-      name: "AWS Certified Solutions Architect – Associate",
-      issuer: "Amazon Web Services",
-      date: "2023"
+      name: "TypeScript Certification",
+      issuer: "Udemy",
+      date: "Certified"
     },
     {
-      name: "Meta Certified Frontend Developer",
-      issuer: "Meta / Coursera",
-      date: "2022"
+      name: "MERN Stack Development",
+      issuer: "Udemy",
+      date: "Certified"
     }
   ]
 };
