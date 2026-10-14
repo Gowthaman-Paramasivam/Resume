@@ -1,15 +1,15 @@
 export const resumeData = {
   personal: {
     name: "Gowthaman Paramasivam",
-    title: "Senior Full-Stack & Frontend Engineer",
-    tagline: "Building performant, scalable, and intuitive web applications with modern tech stacks.",
+    title: "Senior Software Developer",
+    tagline: "Senior software developer with 5+ years of practical full-stack application development and desktop software expertise.",
     email: "gowthamanp16@gmail.com",
     phone: "+91 98765 43210",
     location: "India",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     portfolio: "https://yourusername.github.io/poc",
-    about: `Dedicated and results-driven Software Engineer with extensive experience in architecting and delivering high-performance web applications. Adept at bridging clean UI/UX design with robust, scalable backends. Passionate about developer tooling, cloud-native deployments, and continuous system optimization.`
+    about: `Dedicated and effective senior software developer with 5+ years of practical full-stack application development expertise. Focused and efficient learner with practical experience in desktop apps seeking a full stack development role that will expand skillset and contribute to the organization's success.`
   },
   skills: [
     {

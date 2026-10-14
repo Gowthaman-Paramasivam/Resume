@@ -34,7 +34,7 @@ export default function About({ personal }) {
           <div className="lg:col-span-2 text-slate-700 dark:text-slate-300 space-y-4 text-base leading-relaxed">
             <p>{personal.about}</p>
             <p>
-              I thrive on building modern web applications that combine high aesthetic polish with strict engineering standards. Whether developing responsive UI interfaces in React and Tailwind or architecting scalable backend APIs and automated GitHub Actions workflows, my goal is always to deliver dependable, high-impact software.
+              I thrive on architecting and delivering software solutions that combine intuitive user experiences with high performance and reliability. With hands-on experience spanning responsive web applications, desktop software, and resilient backend services, my focus is on continuous learning, mastering modern technologies, and driving organization-wide impact.
             </p>
           </div>
 
