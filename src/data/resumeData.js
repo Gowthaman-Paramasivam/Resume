@@ -14,19 +14,19 @@ export const resumeData = {
   skills: [
     {
       category: "Programming Languages & Frontend",
-      items: ["Java", "TypeScript", "JavaScript (ES6+)", "Angular", "React", "HTML5", "CSS3", "Tailwind CSS", "AJAX", "jQuery", "Storybook"]
+      items: ["Java", "TypeScript", "JavaScript (ES6+)", "React", "Angular", "HTML5", "CSS3", "Tailwind CSS", "AJAX", "jQuery", "Storybook"]
     },
     {
-      category: "Backend, Middleware & Frameworks",
-      items: ["WSO2 MI (Micro Integrator)", "Spring Boot", "Enterprise Integration (ESB)", "Node.js", "Express.js", "RESTful APIs", "Microservices", "Spring Data JPA", "JWT", "OAuth2", "API Gateway", "OPC UA PubSub", "MQTT"]
+      category: "Backend, Cloud & Middleware",
+      items: ["Spring Boot", "Microservices", "WSO2 MI (Micro Integrator)", "Enterprise Integration (ESB)", "RESTful APIs", "Azure APIM (API Management)", "OAuth 2.0 & JWT", "Spring Data JPA", "Node.js", "Express.js", "OPC UA PubSub", "MQTT"]
     },
     {
       category: "Databases & Architecture",
-      items: ["Oracle Database", "MySQL", "MongoDB", "Banking System Architecture", "Query Optimization", "Multi-Level Workflow Systems", "Client/Server"]
+      items: ["PostgreSQL", "Oracle Database", "MySQL", "MongoDB", "Cloud-Native Architecture", "Tax & Financial Systems", "Banking Architecture", "Query Optimization"]
     },
     {
-      category: "Desktop, DevOps & Testing",
-      items: ["Electron", "Docker", "Mocha (Unit Testing)", "TDD Approach", "Balsamiq", "Linux", "Windows", "Git", "GitHub", "GitLab", "Gerrit", "Jira", "Webpack", "Vite"]
+      category: "Cloud, Desktop & DevOps",
+      items: ["Azure Cloud", "Docker", "Electron", "Mocha (Unit Testing)", "TDD Approach", "Balsamiq", "Linux", "Windows", "Git", "GitHub", "GitLab", "Gerrit", "Jira", "Webpack", "Vite"]
     }
   ],
   experience: [
@@ -35,15 +35,16 @@ export const resumeData = {
       company: "Impiger Technologies",
       location: "Chennai, India (Includes 3-Month Dubai, UAE Onsite)",
       period: "Nov 2024 - Present",
-      description: "Leading enterprise banking middleware modernization and legacy ESB migration to WSO2 products, including a 3-month onsite assignment in Dubai, UAE.",
+      description: "Leading enterprise backend architecture, cloud-native microservices, and middleware modernization across financial and tax domains.",
       highlights: [
-        "Led end-to-end middleware migration from legacy ESB platforms to WSO2 Products (WSO2 Micro Integrator) and Java, guaranteeing zero functional deviation across core banking operations.",
-        "Deployed 3 months onsite in Dubai, UAE, collaborating directly with functional teams and business analysts to confirm service expectations and resolve critical integration gaps.",
-        "Analyzed and reverse-engineered existing integration flows to validate and optimize business logic prior to redesigning high-scale integration services in WSO2.",
-        "Reviewed and approved design changes, ensuring rigorous alignment with enterprise banking architecture standards and international security compliance.",
-        "Enabled secure, scalable API accessibility for third-party financial institutions and external entities."
+        "A&M Project (Oct 2025 - Present): Leading design and development of scalable backend microservices using Java, Spring Boot, PostgreSQL, and React in the tax and financial domain.",
+        "A&M Project: Architecting secure REST APIs fortified with Azure API Management (APIM), OAuth 2.0/JWT authentication, and cloud-native architecture.",
+        "A&M Project: Collaborating directly with customers and business stakeholders to translate financial requirements into robust, high-performance technical solutions.",
+        "A&M Project: Delivering production support, root cause analysis, query tuning, API documentation, and cross-functional Agile sprint leadership.",
+        "Banking Middleware Project (Nov 2024 - Oct 2025): Led enterprise middleware migration from legacy ESB to WSO2 Micro Integrator (MI) and Java with zero functional deviation.",
+        "Banking Middleware Project: Completed 3-month onsite client deployment in Dubai, UAE, coordinating with international stakeholders to confirm service expectations and bridge integration gaps."
       ],
-      technologies: ["WSO2 MI", "Java", "ESB Migration", "Enterprise Integration", "Banking Architecture", "REST APIs", "Git", "Jira"]
+      technologies: ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Azure APIM", "OAuth 2.0", "JWT", "React", "WSO2 MI", "REST APIs", "Docker", "Git", "Agile"]
     },
     {
       role: "Software Developer",
@@ -90,6 +91,14 @@ export const resumeData = {
     }
   ],
   projects: [
+    {
+      title: "A&M – Enterprise Tax & Financial Microservices Platform",
+      description: "Cloud-native enterprise platform in the tax and financial domain. Designed and developed scalable Java & Spring Boot microservices, secure REST APIs integrated with Azure API Management (APIM), OAuth 2.0/JWT authentication, and PostgreSQL with React frontend integration.",
+      technologies: ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Azure APIM", "OAuth 2.0", "JWT", "React", "REST APIs"],
+      github: null,
+      live: null,
+      metrics: "Cloud-native architecture with Azure APIM & OAuth 2.0 security"
+    },
     {
       title: "Middleware Migration for Banking System (WSO2 MI)",
       description: "Mission-critical middleware modernization and migration from legacy ESB platforms to WSO2 Products (WSO2 Micro Integrator) and Java for a leading banking institution. Included a 3-month onsite client deployment in Dubai, UAE, enabling high scalability and allowing external financial entities to securely access APIs with zero functional deviation.",
