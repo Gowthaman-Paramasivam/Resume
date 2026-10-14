@@ -39,7 +39,8 @@ export default function Navbar({ darkMode, setDarkMode, personal }) {
           </button>
 
           <button
-            onClick={() => setDarkMode(!darkMode)}
+            type="button"
+            onClick={() => setDarkMode(prev => !prev)}
             title={darkMode ? "Switch to light mode" : "Switch to dark mode"}
             className="p-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors cursor-pointer"
             aria-label="Toggle Theme"

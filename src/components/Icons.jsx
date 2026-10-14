@@ -38,3 +38,25 @@ export function LinkedinIcon({ size = 18, className = "" }) {
     </svg>
   );
 }
+
+export function UaeFlag({ className = "w-5 h-3.5 rounded-[2px] shadow-xs inline-block flex-shrink-0" }) {
+  return (
+    <svg viewBox="0 0 600 300" className={className} xmlns="http://www.w3.org/2000/svg">
+      <rect width="600" height="100" fill="#00732f" />
+      <rect y="100" width="600" height="100" fill="#ffffff" />
+      <rect y="200" width="600" height="100" fill="#000000" />
+      <rect width="150" height="300" fill="#ff0000" />
+    </svg>
+  );
+}
+
+export function IndiaFlag({ className = "w-5 h-3.5 rounded-[2px] shadow-xs inline-block flex-shrink-0" }) {
+  return (
+    <svg viewBox="0 0 225 150" className={className} xmlns="http://www.w3.org/2000/svg">
+      <rect width="225" height="50" fill="#FF9933" />
+      <rect y="50" width="225" height="50" fill="#FFFFFF" />
+      <rect y="100" width="225" height="50" fill="#128807" />
+      <circle cx="112.5" cy="75" r="18" fill="none" stroke="#000080" strokeWidth="2.5" />
+    </svg>
+  );
+}

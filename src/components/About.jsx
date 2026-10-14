@@ -1,21 +1,25 @@
 import React from 'react';
 import { User, Code2, Globe, ShieldCheck } from 'lucide-react';
+import { UaeFlag } from './Icons';
 
 export default function About({ personal }) {
   const pillars = [
     {
       icon: <Globe className="text-amber-500" size={20} />,
-      title: "International Onsite Delivery",
+      title: "International Onsite Delivery (Dubai, UAE)",
+      badge: <UaeFlag className="w-4 h-2.5 rounded-[1px]" />,
       desc: "Proven track record of 3-month onsite client delivery in Dubai, UAE, leading mission-critical banking ESB migrations with zero functional deviation."
     },
     {
       icon: <Code2 className="text-blue-500" size={20} />,
       title: "Full-Stack & Cloud Architecture",
+      badge: null,
       desc: "Delivering responsive frontends (React, Angular) backed by robust cloud-native microservices (Spring Boot, Node.js, Azure APIM)."
     },
     {
       icon: <ShieldCheck className="text-emerald-500" size={20} />,
       title: "Quality & High Availability",
+      badge: null,
       desc: "Writing modular, test-driven code (TDD) with advanced query optimization, OAuth2 security, and multi-tier approval workflows."
     }
   ];
@@ -48,9 +52,12 @@ export default function About({ personal }) {
                   {pillar.icon}
                 </div>
                 <div>
-                  <h3 className="font-semibold text-sm text-slate-900 dark:text-white">
-                    {pillar.title}
-                  </h3>
+                  <div className="flex items-center gap-2">
+                    <h3 className="font-semibold text-sm text-slate-900 dark:text-white">
+                      {pillar.title}
+                    </h3>
+                    {pillar.badge}
+                  </div>
                   <p className="text-xs text-slate-600 dark:text-slate-400 mt-1 leading-normal">
                     {pillar.desc}
                   </p>

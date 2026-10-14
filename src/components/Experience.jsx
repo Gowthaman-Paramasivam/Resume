@@ -1,5 +1,6 @@
 import React from 'react';
-import { Briefcase, Calendar, MapPin, CheckCircle2, Plane } from 'lucide-react';
+import { Briefcase, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
+import { UaeFlag } from './Icons';
 
 export default function Experience({ experience }) {
   return (
@@ -20,10 +21,10 @@ export default function Experience({ experience }) {
 
               <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow">
                 
-                {/* Special Highlight Badge (e.g. Dubai Onsite) */}
+                {/* Special Highlight Badge (e.g. Dubai Onsite with UAE Flag) */}
                 {job.highlightBadge && (
-                  <div className="mb-3.5 inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-bold bg-amber-50 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300/60 dark:border-amber-700/60 shadow-xs">
-                    <Plane size={13} className="text-amber-600 dark:text-amber-400" />
+                  <div className="mb-3.5 inline-flex items-center gap-2 px-3 py-1 rounded-lg text-xs font-bold bg-amber-50 text-amber-900 dark:bg-amber-950/70 dark:text-amber-200 border border-amber-300/80 dark:border-amber-700/80 shadow-xs">
+                    <UaeFlag className="w-4 h-3 rounded-[2px]" />
                     <span>{job.highlightBadge}</span>
                   </div>
                 )}

@@ -1,8 +1,8 @@
 export const resumeData = {
   personal: {
     name: "Gowthaman Paramasivam",
-    title: "Senior Engineer | Full-Stack, Desktop & Middleware",
-    tagline: "Senior engineer with 5+ years of practical experience across enterprise banking middleware (WSO2 MI, Java), full-stack platforms (Spring Boot, React, Angular), desktop software (Electron), and international onsite delivery in Dubai.",
+    title: "Senior Java Developer | Java & Spring Boot | Microservices | Azure | Full Stack Development | Technical Leadership",
+    tagline: "Senior engineer with 5+ years of practical experience across enterprise banking middleware (Java, node.js & Wso2 MI & APIM), full-stack platforms (Spring Boot, React, Angular), and international onsite delivery in Dubai.",
     email: "gowthamanp16@gmail.com",
     phone: "+91 8508772811",
     location: "Chennai, Tamil Nadu, India",
@@ -38,12 +38,11 @@ export const resumeData = {
       highlightBadge: "✈️ 3-Month International Client Onsite (Dubai, UAE)",
       description: "Leading enterprise backend architecture, cloud-native microservices, and middleware modernization across financial and tax domains.",
       highlights: [
-        "Enterprise Tax-Based Application (Oct 2025 - Present): Leading design and development of scalable backend microservices using Java, Spring Boot, PostgreSQL, and React in the tax and financial domain.",
-        "Tax-Based Application: Architecting secure REST APIs fortified with Azure API Management (APIM), OAuth 2.0/JWT authentication, and cloud-native architecture.",
-        "Tax-Based Application: Collaborating directly with customers and business stakeholders to translate financial requirements into robust, high-performance technical solutions.",
-        "Tax-Based Application: Delivering production support, root cause analysis, query tuning, API documentation, and cross-functional Agile sprint leadership.",
-        "Banking Middleware Project (Nov 2024 - Oct 2025): Led enterprise middleware migration from legacy ESB to WSO2 Micro Integrator (MI) and Java with zero functional deviation.",
-        "Banking Middleware Project: Completed 3-month onsite client deployment in Dubai, UAE, coordinating with international stakeholders to confirm service expectations and bridge integration gaps."
+        "Architected scalable Spring Boot microservices, PostgreSQL schemas, and React UI in the tax domain.",
+        "Secured enterprise REST APIs using Azure API Management (APIM), OAuth 2.0, and JWT authentication.",
+        "Led legacy banking ESB migration to WSO2 Micro Integrator (MI) with zero functional deviation.",
+        "Completed 3-month onsite client deployment in Dubai, UAE, bridging critical integration gaps with stakeholders.",
+        "Provided production support, root cause analysis, query tuning, and Agile sprint technical leadership."
       ],
       technologies: ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Azure APIM", "OAuth 2.0", "JWT", "React", "WSO2 MI", "REST APIs", "Docker", "Git", "Agile"]
     },
@@ -52,13 +51,12 @@ export const resumeData = {
       company: "Eclatron Technologies Private Limited",
       location: "Tamil Nadu, India",
       period: "Mar 2023 - Oct 2024",
-      description: "Engineered enterprise payment processing and fund disbursement systems (TNPASS, AGAMT, MGSMT) for the Department of Tamil Nadu State Government.",
+      description: "Engineered enterprise government banking payment processing and treasury fund disbursement systems (TNPASS, AGAMT, MGSMT) for the Department of Tamil Nadu State Government.",
       highlights: [
-        "Analyzed business requirements and designed Spring Boot microservices for payment processing, fund allocation, vendor payments, and multi-level approval workflows.",
-        "Built automated workflow engines enabling secure, tiered authorization of bank-allotted government funds across Village, Taluk, and District panchayat logins.",
-        "Developed secure REST APIs with JWT authentication and integrated third-party banking services using OAuth2 and API Gateway.",
-        "Optimized backend services and significantly reduced database execution time through advanced SQL query tuning and efficient Spring Data JPA implementations on Oracle Database.",
-        "Developed and maintained modular user interfaces with Angular to deliver an intuitive experience for administrative government users."
+        "Built Spring Boot microservices and Angular interfaces for state government payment portals (TNPASS, AGAMT, MGSMT).",
+        "Engineered automated approval workflows for fund disbursements across Village, Taluk, and District logins.",
+        "Integrated commercial banking APIs using secure REST endpoints, OAuth2, and API Gateway.",
+        "Tuned complex SQL queries and optimized Spring Data JPA performance on Oracle Database."
       ],
       technologies: ["Spring Boot", "Angular", "Java", "Oracle Database", "Spring Data JPA", "REST APIs", "JWT", "OAuth2", "API Gateway", "Microservices", "Git", "Jira"]
     },
@@ -69,11 +67,10 @@ export const resumeData = {
       period: "July 2021 - Feb 2023",
       description: "Spearheaded end-to-end full-stack and desktop application development using agile and test-driven methodologies.",
       highlights: [
-        "Designed and developed full-stack web and desktop applications utilizing Electron, React, and Node.js following Agile project methodologies.",
-        "Implemented strict Test-Driven Development (TDD) practices with Mocha to significantly elevate code coverage and product reliability.",
-        "Engineered OPC UA PubSub stack components in Node.js, achieving robust cross-platform interoperability across open-source OPC UA stacks.",
-        "Reviewed codebase, debugged mission-critical bottlenecks, and ensured high responsiveness, quality, and low latency across IoT communications.",
-        "Collaborated directly with enterprise clients to translate industrial specifications into reliable production deliverables."
+        "Developed cross-platform Electron, React, and Node.js desktop applications following Agile and TDD.",
+        "Engineered high-throughput OPC UA PubSub stack components in Node.js for industrial IoT systems.",
+        "Authored comprehensive Mocha unit test suites to ensure strict reliability and spec compliance.",
+        "Collaborated with enterprise clients to resolve bottlenecks and optimize message latency."
       ],
       technologies: ["Node.js", "Electron", "React", "TypeScript", "OPC UA", "MQTT", "Docker", "Mocha", "TDD"]
     },
@@ -84,9 +81,8 @@ export const resumeData = {
       period: "January 2021 - June 2021",
       description: "Contributed to core JavaScript and Node.js framework modernization initiatives.",
       highlights: [
-        "Modernized legacy architectures by converting LAMP stack concepts into scalable Node.js modules.",
-        "Built dynamic form generators and desk interfaces leveraging Mustache template engines.",
-        "Participated in sprint planning, code reviews, and cross-team design discussions to deliver deliverables on schedule."
+        "Migrated legacy LAMP stack architectures into modular Node.js backend services.",
+        "Created dynamic form builders and administrative desks using Mustache template engines."
       ],
       technologies: ["JavaScript", "Node.js", "Express", "HTML/CSS", "Mustache", "Git"]
     }
@@ -94,51 +90,51 @@ export const resumeData = {
   projects: [
     {
       title: "Enterprise Tax-Based Application Platform",
-      description: "Cloud-native enterprise platform in the tax and financial domain. Designed and developed scalable Java & Spring Boot microservices, secure REST APIs integrated with Azure API Management (APIM), OAuth 2.0/JWT authentication, and PostgreSQL with React frontend integration.",
-      technologies: ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Azure APIM", "OAuth 2.0", "JWT", "React", "REST APIs"],
+      description: "Cloud-native financial tax platform with Spring Boot microservices, PostgreSQL, Azure APIM, OAuth 2.0 security, and React.",
+      technologies: ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Azure APIM", "OAuth 2.0", "JWT", "React"],
       github: null,
       live: null,
-      metrics: "Cloud-native architecture with Azure APIM & OAuth 2.0 security"
+      metrics: "Azure APIM & OAuth 2.0 Cloud Security"
     },
     {
       title: "Middleware Migration for Banking System (WSO2 MI)",
-      description: "Mission-critical middleware modernization and migration from legacy ESB platforms to WSO2 Products (WSO2 Micro Integrator) and Java for a leading banking institution. Included a 3-month onsite client deployment in Dubai, UAE, enabling high scalability and allowing external financial entities to securely access APIs with zero functional deviation.",
+      description: "Modernized legacy banking ESB to WSO2 Micro Integrator with zero functional deviation and a 3-month onsite delivery in Dubai, UAE.",
       technologies: ["WSO2 MI", "Java", "Enterprise Integration", "ESB Migration", "REST APIs", "Banking Architecture"],
       github: null,
       live: null,
-      metrics: "3-Month Dubai Onsite • Zero Functional Deviation"
+      metrics: "🇦🇪 3-Month Dubai Onsite • Zero Deviation"
     },
     {
-      title: "TNPASS, AGAMT & MGSMT – State Government Payment Portals",
-      description: "Comprehensive financial disbursement and payment processing application developed for the Department of Tamil Nadu State Government. Manages bank-allotted government funds transferred to employees, vendors, and departments across Village, Taluk, and District panchayats through multi-level approval workflows.",
-      technologies: ["Spring Boot", "Angular", "Oracle Database", "Spring Data JPA", "JWT", "OAuth2", "API Gateway", "Microservices"],
+      title: "TNPASS, AGAMT & MGSMT – Government Banking Portals",
+      description: "State government treasury payment system managing multi-tier panchayat fund disbursements integrated with commercial banking APIs.",
+      technologies: ["Spring Boot", "Angular", "Oracle Database", "Spring Data JPA", "JWT", "OAuth2", "Microservices"],
       github: null,
       live: null,
-      metrics: "Secures multi-tier panchayat disbursements with bank API integration"
+      metrics: "Government Banking & Treasury Integration"
     },
     {
       title: "OPC UA Compliant PubSub Configurator Tool",
-      description: "High-performance desktop & web configurator application enabling seamless configuration of OPC UA publish-subscribe systems in industrial environments.",
+      description: "Desktop & web configurator built with Electron, React, and Node.js for industrial OPC UA PubSub systems.",
       technologies: ["Electron", "React", "Node.js", "TypeScript", "OPC UA", "Mocha", "TDD"],
       github: "https://github.com",
       live: null,
-      metrics: "Agile TDD workflow with 100% specification compliance"
+      metrics: "100% Spec Compliance • TDD Workflow"
     },
     {
       title: "OPC UA PubSub Stack & Interoperability Engine",
-      description: "Development of a high-throughput PubSub stack in Node OPCUA, establishing cross-platform interoperability between two major open-source OPC UA implementations.",
+      description: "High-throughput Node.js PubSub engine establishing cross-platform interoperability across open-source OPC UA stacks.",
       technologies: ["Node.js", "OPC UA", "MQTT", "Unit Testing (Mocha)", "Linux", "Windows"],
       github: "https://github.com",
       live: null,
-      metrics: "Cross-platform interoperability across industrial IoT devices"
+      metrics: "Cross-Platform IoT Interoperability"
     },
     {
       title: "Fibenis Framework Modernization",
-      description: "Architectural transformation converting a LAMP stack foundation into a modern, dynamic Node.js framework utilizing mustache templating and automated desks.",
+      description: "Architectural transformation converting legacy LAMP stack components into modern, dynamic Node.js modules.",
       technologies: ["Node.js", "Express.js", "JavaScript", "Mustache Templates", "MySQL"],
       github: "https://github.com",
       live: null,
-      metrics: "Streamlined data models & modern REST integration"
+      metrics: "Legacy Modernization to Node.js"
     }
   ],
   education: [

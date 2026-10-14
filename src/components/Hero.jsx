@@ -1,6 +1,6 @@
 import React from 'react';
-import { Mail, MapPin, Phone, ArrowDown, FileDown, Plane, Globe, Award, Sparkles } from 'lucide-react';
-import { GithubIcon, LinkedinIcon } from './Icons';
+import { Mail, MapPin, Phone, ArrowDown, FileDown, Globe } from 'lucide-react';
+import { GithubIcon, LinkedinIcon, UaeFlag, IndiaFlag } from './Icons';
 
 export default function Hero({ personal }) {
   return (
@@ -9,17 +9,17 @@ export default function Hero({ personal }) {
         <div className="flex flex-col-reverse md:flex-row items-start md:items-center justify-between gap-8">
           
           <div className="flex-1 space-y-5">
-            {/* Badges including Dubai Onsite Highlight */}
+            {/* Badges including Dubai Onsite Highlight with Country Flag */}
             <div className="flex flex-wrap items-center gap-2.5">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-700 dark:bg-blue-950/80 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                 Available for Opportunities
               </div>
 
-              {/* Dubai Onsite Spotlight Badge */}
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300/60 dark:border-amber-700/60 shadow-xs">
-                <Plane size={13} className="text-amber-600 dark:text-amber-400" />
-                <span>3-Month Dubai, UAE Onsite Client Delivery</span>
+              {/* Dubai Onsite Spotlight Badge with UAE Flag */}
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-900 dark:bg-amber-950/70 dark:text-amber-200 border border-amber-300/80 dark:border-amber-700/80 shadow-xs">
+                <UaeFlag className="w-4 h-3 rounded-[2px] shadow-xs" />
+                <span>Dubai, UAE Onsite Client Delivery (3 Months)</span>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ export default function Hero({ personal }) {
             {/* Quick Contact & Info Chips */}
             <div className="flex flex-wrap items-center gap-3 text-sm text-slate-600 dark:text-slate-400 pt-1">
               <div className="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-200/80 dark:border-slate-700/60">
-                <MapPin size={16} className="text-blue-500" />
+                <IndiaFlag className="w-4 h-3 rounded-[2px]" />
                 <span>{personal.location}</span>
               </div>
               <a
@@ -87,12 +87,12 @@ export default function Hero({ personal }) {
                 <div className="text-xs text-slate-500 dark:text-slate-400 font-medium">Experience</div>
                 <div className="text-sm font-bold text-slate-900 dark:text-white mt-0.5">5+ Years Full-Stack</div>
               </div>
-              <div className="p-3 rounded-xl bg-amber-500/5 dark:bg-amber-500/10 border border-amber-500/20 shadow-xs">
-                <div className="text-xs text-amber-700 dark:text-amber-400 font-medium flex items-center gap-1">
-                  <Globe size={13} />
-                  International Onsite
+              <div className="p-3 rounded-xl bg-amber-500/10 dark:bg-amber-500/15 border border-amber-500/30 shadow-xs">
+                <div className="text-xs text-amber-800 dark:text-amber-300 font-medium flex items-center gap-1.5">
+                  <UaeFlag className="w-3.5 h-2.5 rounded-[1px]" />
+                  <span>International Onsite</span>
                 </div>
-                <div className="text-sm font-bold text-amber-900 dark:text-amber-200 mt-0.5">Dubai, UAE (3 Months)</div>
+                <div className="text-sm font-bold text-amber-950 dark:text-amber-100 mt-0.5">Dubai, UAE (3 Months)</div>
               </div>
               <div className="p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
                 <div className="text-xs text-slate-500 dark:text-slate-400 font-medium">Core Architecture</div>

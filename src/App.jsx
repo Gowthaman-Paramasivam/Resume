@@ -18,17 +18,22 @@ export default function App() {
   });
 
   useEffect(() => {
+    const root = document.documentElement;
+    const body = document.body;
+
     if (darkMode) {
-      document.documentElement.classList.add('dark');
+      root.classList.add('dark');
+      body.classList.add('dark');
       localStorage.setItem('theme', 'dark');
     } else {
-      document.documentElement.classList.remove('dark');
+      root.classList.remove('dark');
+      body.classList.remove('dark');
       localStorage.setItem('theme', 'light');
     }
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 selection:bg-blue-600 selection:text-white transition-colors duration-200">
+    <div className={`${darkMode ? 'dark' : ''} min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 selection:bg-blue-600 selection:text-white transition-colors duration-200`}>
       <Navbar
         darkMode={darkMode}
         setDarkMode={setDarkMode}
