@@ -1,8 +1,8 @@
 export const resumeData = {
   personal: {
     name: "Gowthaman Paramasivam",
-    title: "Senior Engineer | Full-Stack & Desktop Applications",
-    tagline: "Dedicated and effective senior software engineer with 5+ years of practical full-stack application development & desktop software expertise.",
+    title: "Senior Engineer | Full-Stack, Desktop & Middleware",
+    tagline: "Senior engineer with 5+ years of practical experience across enterprise banking middleware (WSO2 MI, Java), full-stack platforms (Spring Boot, React, Angular), desktop software (Electron), and international onsite delivery in Dubai.",
     email: "gowthamanp16@gmail.com",
     phone: "+91 8508772811",
     location: "Chennai, Tamil Nadu, India",
@@ -17,12 +17,12 @@ export const resumeData = {
       items: ["Java", "TypeScript", "JavaScript (ES6+)", "Angular", "React", "HTML5", "CSS3", "Tailwind CSS", "AJAX", "jQuery", "Storybook"]
     },
     {
-      category: "Backend, Frameworks & APIs",
-      items: ["Spring Boot", "Node.js", "Express.js", "RESTful APIs", "Microservices", "Spring Data JPA", "JWT", "OAuth2", "API Gateway", "OPC UA PubSub", "MQTT"]
+      category: "Backend, Middleware & Frameworks",
+      items: ["WSO2 MI (Micro Integrator)", "Spring Boot", "Enterprise Integration (ESB)", "Node.js", "Express.js", "RESTful APIs", "Microservices", "Spring Data JPA", "JWT", "OAuth2", "API Gateway", "OPC UA PubSub", "MQTT"]
     },
     {
       category: "Databases & Architecture",
-      items: ["Oracle Database", "MySQL", "MongoDB", "Query Optimization", "Multi-Level Workflow Systems", "Client/Server"]
+      items: ["Oracle Database", "MySQL", "MongoDB", "Banking System Architecture", "Query Optimization", "Multi-Level Workflow Systems", "Client/Server"]
     },
     {
       category: "Desktop, DevOps & Testing",
@@ -33,15 +33,17 @@ export const resumeData = {
     {
       role: "Senior Engineer",
       company: "Impiger Technologies",
-      location: "Chennai, Tamil Nadu, India",
+      location: "Chennai, India (Includes 3-Month Dubai, UAE Onsite)",
       period: "Nov 2024 - Present",
-      description: "Leading full-stack engineering initiatives, architecting scalable web applications, and driving technical excellence.",
+      description: "Leading enterprise banking middleware modernization and legacy ESB migration to WSO2 products, including a 3-month onsite assignment in Dubai, UAE.",
       highlights: [
-        "Architecting robust and responsive full-stack web applications utilizing React, TypeScript, and Node.js microservices.",
-        "Collaborating across engineering and product teams to translate enterprise client requirements into performant, clean-code solutions.",
-        "Driving agile sprint planning, technical design reviews, code quality benchmarks, and automated CI/CD pipeline deployments."
+        "Led end-to-end middleware migration from legacy ESB platforms to WSO2 Products (WSO2 Micro Integrator) and Java, guaranteeing zero functional deviation across core banking operations.",
+        "Deployed 3 months onsite in Dubai, UAE, collaborating directly with functional teams and business analysts to confirm service expectations and resolve critical integration gaps.",
+        "Analyzed and reverse-engineered existing integration flows to validate and optimize business logic prior to redesigning high-scale integration services in WSO2.",
+        "Reviewed and approved design changes, ensuring rigorous alignment with enterprise banking architecture standards and international security compliance.",
+        "Enabled secure, scalable API accessibility for third-party financial institutions and external entities."
       ],
-      technologies: ["React", "TypeScript", "Node.js", "Express.js", "Tailwind CSS", "Docker", "REST APIs", "Git", "Agile"]
+      technologies: ["WSO2 MI", "Java", "ESB Migration", "Enterprise Integration", "Banking Architecture", "REST APIs", "Git", "Jira"]
     },
     {
       role: "Software Developer",
@@ -88,6 +90,14 @@ export const resumeData = {
     }
   ],
   projects: [
+    {
+      title: "Middleware Migration for Banking System (WSO2 MI)",
+      description: "Mission-critical middleware modernization and migration from legacy ESB platforms to WSO2 Products (WSO2 Micro Integrator) and Java for a leading banking institution. Included a 3-month onsite client deployment in Dubai, UAE, enabling high scalability and allowing external financial entities to securely access APIs with zero functional deviation.",
+      technologies: ["WSO2 MI", "Java", "Enterprise Integration", "ESB Migration", "REST APIs", "Banking Architecture"],
+      github: null,
+      live: null,
+      metrics: "3-Month Dubai Onsite • Zero Functional Deviation"
+    },
     {
       title: "TNPASS, AGAMT & MGSMT – State Government Payment Portals",
       description: "Comprehensive financial disbursement and payment processing application developed for the Department of Tamil Nadu State Government. Manages bank-allotted government funds transferred to employees, vendors, and departments across Village, Taluk, and District panchayats through multi-level approval workflows.",
