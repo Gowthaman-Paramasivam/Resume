@@ -1,22 +1,22 @@
 import React from 'react';
-import { User, Code2, Zap, ShieldCheck } from 'lucide-react';
+import { User, Code2, Globe, ShieldCheck } from 'lucide-react';
 
 export default function About({ personal }) {
   const pillars = [
     {
-      icon: <Code2 className="text-blue-500" size={20} />,
-      title: "Full-Stack Craftsmanship",
-      desc: "Delivering polished frontend user experiences backed by robust, scalable microservices and APIs."
+      icon: <Globe className="text-amber-500" size={20} />,
+      title: "International Onsite Delivery",
+      desc: "Proven track record of 3-month onsite client delivery in Dubai, UAE, leading mission-critical banking ESB migrations with zero functional deviation."
     },
     {
-      icon: <Zap className="text-amber-500" size={20} />,
-      title: "Performance & DX",
-      desc: "Obsessed with lightning-fast load times, streamlined developer tooling, and automated CI/CD deployments."
+      icon: <Code2 className="text-blue-500" size={20} />,
+      title: "Full-Stack & Cloud Architecture",
+      desc: "Delivering responsive frontends (React, Angular) backed by robust cloud-native microservices (Spring Boot, Node.js, Azure APIM)."
     },
     {
       icon: <ShieldCheck className="text-emerald-500" size={20} />,
-      title: "Quality & Resilience",
-      desc: "Writing modular, test-driven, maintainable code designed to scale reliably with growing user bases."
+      title: "Quality & High Availability",
+      desc: "Writing modular, test-driven code (TDD) with advanced query optimization, OAuth2 security, and multi-tier approval workflows."
     }
   ];
 
@@ -34,7 +34,7 @@ export default function About({ personal }) {
           <div className="lg:col-span-2 text-slate-700 dark:text-slate-300 space-y-4 text-base leading-relaxed">
             <p>{personal.about}</p>
             <p>
-              I thrive on architecting and delivering software solutions that combine intuitive user experiences with high performance and reliability. With hands-on experience spanning responsive web applications, desktop software, and resilient backend services, my focus is on continuous learning, mastering modern technologies, and driving organization-wide impact.
+              I thrive on architecting and delivering software solutions that combine intuitive user experiences with high performance and reliability. With hands-on experience spanning enterprise banking middleware, responsive web applications, desktop software, and international client delivery in Dubai, my focus is on continuous learning, mastering modern technologies, and driving organization-wide impact.
             </p>
           </div>
 

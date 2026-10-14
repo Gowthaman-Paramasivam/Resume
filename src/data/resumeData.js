@@ -35,6 +35,7 @@ export const resumeData = {
       company: "Impiger Technologies",
       location: "Chennai, India (Includes 3-Month Dubai, UAE Onsite)",
       period: "Nov 2024 - Present",
+      highlightBadge: "✈️ 3-Month International Client Onsite (Dubai, UAE)",
       description: "Leading enterprise backend architecture, cloud-native microservices, and middleware modernization across financial and tax domains.",
       highlights: [
         "A&M Project (Oct 2025 - Present): Leading design and development of scalable backend microservices using Java, Spring Boot, PostgreSQL, and React in the tax and financial domain.",

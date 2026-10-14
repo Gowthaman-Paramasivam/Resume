@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MapPin, Phone, ArrowDown, FileDown } from 'lucide-react';
+import { Mail, MapPin, Phone, ArrowDown, FileDown, Plane, Globe, Award, Sparkles } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 
 export default function Hero({ personal }) {
@@ -9,9 +9,18 @@ export default function Hero({ personal }) {
         <div className="flex flex-col-reverse md:flex-row items-start md:items-center justify-between gap-8">
           
           <div className="flex-1 space-y-5">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-700 dark:bg-blue-950/80 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-              Available for Opportunities
+            {/* Badges including Dubai Onsite Highlight */}
+            <div className="flex flex-wrap items-center gap-2.5">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-700 dark:bg-blue-950/80 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                Available for Opportunities
+              </div>
+
+              {/* Dubai Onsite Spotlight Badge */}
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300/60 dark:border-amber-700/60 shadow-xs">
+                <Plane size={13} className="text-amber-600 dark:text-amber-400" />
+                <span>3-Month Dubai, UAE Onsite Client Delivery</span>
+              </div>
             </div>
 
             <div>
@@ -71,12 +80,32 @@ export default function Hero({ personal }) {
                 Get In Touch
               </a>
             </div>
+
+            {/* Quick Spotlight Callout */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-4 border-t border-slate-200/70 dark:border-slate-800/70 no-print">
+              <div className="p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
+                <div className="text-xs text-slate-500 dark:text-slate-400 font-medium">Experience</div>
+                <div className="text-sm font-bold text-slate-900 dark:text-white mt-0.5">5+ Years Full-Stack</div>
+              </div>
+              <div className="p-3 rounded-xl bg-amber-500/5 dark:bg-amber-500/10 border border-amber-500/20 shadow-xs">
+                <div className="text-xs text-amber-700 dark:text-amber-400 font-medium flex items-center gap-1">
+                  <Globe size={13} />
+                  International Onsite
+                </div>
+                <div className="text-sm font-bold text-amber-900 dark:text-amber-200 mt-0.5">Dubai, UAE (3 Months)</div>
+              </div>
+              <div className="p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
+                <div className="text-xs text-slate-500 dark:text-slate-400 font-medium">Core Architecture</div>
+                <div className="text-sm font-bold text-slate-900 dark:text-white mt-0.5">Spring Boot & WSO2 MI</div>
+              </div>
+            </div>
+
           </div>
 
           {/* Profile Card / Avatar Monogram */}
           <div className="flex-shrink-0 self-center md:self-auto">
             <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-indigo-600 to-amber-500 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
               <div className="relative w-36 h-36 sm:w-44 sm:h-44 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xl flex flex-col items-center justify-center p-6 text-center">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-500 text-white flex items-center justify-center text-3xl sm:text-4xl font-extrabold shadow-inner">
                   {personal.name.split(' ').map(n => n[0]).join('')}

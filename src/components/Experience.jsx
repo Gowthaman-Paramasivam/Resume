@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
+import { Briefcase, Calendar, MapPin, CheckCircle2, Plane } from 'lucide-react';
 
 export default function Experience({ experience }) {
   return (
@@ -19,6 +19,15 @@ export default function Experience({ experience }) {
               <div className="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-blue-600 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
 
               <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow">
+                
+                {/* Special Highlight Badge (e.g. Dubai Onsite) */}
+                {job.highlightBadge && (
+                  <div className="mb-3.5 inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-bold bg-amber-50 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300/60 dark:border-amber-700/60 shadow-xs">
+                    <Plane size={13} className="text-amber-600 dark:text-amber-400" />
+                    <span>{job.highlightBadge}</span>
+                  </div>
+                )}
+
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white">
