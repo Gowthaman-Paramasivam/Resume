@@ -14,19 +14,19 @@ export const resumeData = {
   skills: [
     {
       category: "Programming Languages & Frontend",
-      items: ["JavaScript (ES6+)", "TypeScript", "React", "HTML5", "CSS3", "AJAX", "jQuery", "Storybook", "Tailwind CSS"]
+      items: ["Java", "TypeScript", "JavaScript (ES6+)", "Angular", "React", "HTML5", "CSS3", "Tailwind CSS", "AJAX", "jQuery", "Storybook"]
     },
     {
-      category: "Backend, APIs & Protocols",
-      items: ["Node.js", "Express.js", "JSON", "RESTful APIs", "OPC UA PubSub", "MQTT", "Publish/Subscribe", "Client/Server Architecture"]
+      category: "Backend, Frameworks & APIs",
+      items: ["Spring Boot", "Node.js", "Express.js", "RESTful APIs", "Microservices", "Spring Data JPA", "JWT", "OAuth2", "API Gateway", "OPC UA PubSub", "MQTT"]
     },
     {
-      category: "Desktop & Unit Testing",
-      items: ["Electron", "Mocha (Unit Testing)", "TDD Approach", "Balsamiq (UI/UX Design)", "Webpack", "Vite"]
+      category: "Databases & Architecture",
+      items: ["Oracle Database", "MySQL", "MongoDB", "Query Optimization", "Multi-Level Workflow Systems", "Client/Server"]
     },
     {
-      category: "Databases, DevOps & Tools",
-      items: ["MySQL", "MongoDB", "Docker", "Linux", "Windows", "Git", "GitHub", "GitLab", "Gerrit", "Jira", "VS Code"]
+      category: "Desktop, DevOps & Testing",
+      items: ["Electron", "Docker", "Mocha (Unit Testing)", "TDD Approach", "Balsamiq", "Linux", "Windows", "Git", "GitHub", "GitLab", "Gerrit", "Jira", "Webpack", "Vite"]
     }
   ],
   experience: [
@@ -48,14 +48,15 @@ export const resumeData = {
       company: "Eclatron Technologies Private Limited",
       location: "Tamil Nadu, India",
       period: "Mar 2023 - Oct 2024",
-      description: "Developed enterprise full-stack web and desktop applications, responsive frontends, and backend microservices.",
+      description: "Engineered enterprise payment processing and fund disbursement systems (TNPASS, AGAMT, MGSMT) for the Department of Tamil Nadu State Government.",
       highlights: [
-        "Designed and implemented responsive frontend user interfaces with React, modern JavaScript/TypeScript, and modular CSS frameworks.",
-        "Built and integrated secure RESTful APIs and database services with Node.js and Express, improving query performance and data synchronization.",
-        "Conducted end-to-end unit testing, debugging, and cross-browser optimization to guarantee high reliability and sub-second page responsiveness.",
-        "Collaborated in Agile scrums, participated in code reviews, and managed releases using Git version control and Jira."
+        "Analyzed business requirements and designed Spring Boot microservices for payment processing, fund allocation, vendor payments, and multi-level approval workflows.",
+        "Built automated workflow engines enabling secure, tiered authorization of bank-allotted government funds across Village, Taluk, and District panchayat logins.",
+        "Developed secure REST APIs with JWT authentication and integrated third-party banking services using OAuth2 and API Gateway.",
+        "Optimized backend services and significantly reduced database execution time through advanced SQL query tuning and efficient Spring Data JPA implementations on Oracle Database.",
+        "Developed and maintained modular user interfaces with Angular to deliver an intuitive experience for administrative government users."
       ],
-      technologies: ["React", "JavaScript", "TypeScript", "Node.js", "Express.js", "REST APIs", "MySQL", "MongoDB", "Git", "Jira"]
+      technologies: ["Spring Boot", "Angular", "Java", "Oracle Database", "Spring Data JPA", "REST APIs", "JWT", "OAuth2", "API Gateway", "Microservices", "Git", "Jira"]
     },
     {
       role: "IoT Engineer",
@@ -87,6 +88,14 @@ export const resumeData = {
     }
   ],
   projects: [
+    {
+      title: "TNPASS, AGAMT & MGSMT – State Government Payment Portals",
+      description: "Comprehensive financial disbursement and payment processing application developed for the Department of Tamil Nadu State Government. Manages bank-allotted government funds transferred to employees, vendors, and departments across Village, Taluk, and District panchayats through multi-level approval workflows.",
+      technologies: ["Spring Boot", "Angular", "Oracle Database", "Spring Data JPA", "JWT", "OAuth2", "API Gateway", "Microservices"],
+      github: null,
+      live: null,
+      metrics: "Secures multi-tier panchayat disbursements with bank API integration"
+    },
     {
       title: "OPC UA Compliant PubSub Configurator Tool",
       description: "High-performance desktop & web configurator application enabling seamless configuration of OPC UA publish-subscribe systems in industrial environments.",
