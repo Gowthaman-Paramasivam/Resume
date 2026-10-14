@@ -3,7 +3,7 @@ export const resumeData = {
     name: "Gowthaman Paramasivam",
     title: "Senior Full-Stack & Frontend Engineer",
     tagline: "Building performant, scalable, and intuitive web applications with modern tech stacks.",
-    email: "gowthaman.paramasiva@example.com",
+    email: "gowthamanp16@gmail.com",
     phone: "+91 98765 43210",
     location: "India",
     github: "https://github.com",
