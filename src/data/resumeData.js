@@ -38,10 +38,10 @@ export const resumeData = {
       highlightBadge: "✈️ 3-Month International Client Onsite (Dubai, UAE)",
       description: "Leading enterprise backend architecture, cloud-native microservices, and middleware modernization across financial and tax domains.",
       highlights: [
-        "A&M Project (Oct 2025 - Present): Leading design and development of scalable backend microservices using Java, Spring Boot, PostgreSQL, and React in the tax and financial domain.",
-        "A&M Project: Architecting secure REST APIs fortified with Azure API Management (APIM), OAuth 2.0/JWT authentication, and cloud-native architecture.",
-        "A&M Project: Collaborating directly with customers and business stakeholders to translate financial requirements into robust, high-performance technical solutions.",
-        "A&M Project: Delivering production support, root cause analysis, query tuning, API documentation, and cross-functional Agile sprint leadership.",
+        "Enterprise Tax-Based Application (Oct 2025 - Present): Leading design and development of scalable backend microservices using Java, Spring Boot, PostgreSQL, and React in the tax and financial domain.",
+        "Tax-Based Application: Architecting secure REST APIs fortified with Azure API Management (APIM), OAuth 2.0/JWT authentication, and cloud-native architecture.",
+        "Tax-Based Application: Collaborating directly with customers and business stakeholders to translate financial requirements into robust, high-performance technical solutions.",
+        "Tax-Based Application: Delivering production support, root cause analysis, query tuning, API documentation, and cross-functional Agile sprint leadership.",
         "Banking Middleware Project (Nov 2024 - Oct 2025): Led enterprise middleware migration from legacy ESB to WSO2 Micro Integrator (MI) and Java with zero functional deviation.",
         "Banking Middleware Project: Completed 3-month onsite client deployment in Dubai, UAE, coordinating with international stakeholders to confirm service expectations and bridge integration gaps."
       ],
@@ -93,7 +93,7 @@ export const resumeData = {
   ],
   projects: [
     {
-      title: "A&M – Enterprise Tax & Financial Microservices Platform",
+      title: "Enterprise Tax-Based Application Platform",
       description: "Cloud-native enterprise platform in the tax and financial domain. Designed and developed scalable Java & Spring Boot microservices, secure REST APIs integrated with Azure API Management (APIM), OAuth 2.0/JWT authentication, and PostgreSQL with React frontend integration.",
       technologies: ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Azure APIM", "OAuth 2.0", "JWT", "React", "REST APIs"],
       github: null,
