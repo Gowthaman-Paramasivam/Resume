@@ -1,11 +1,11 @@
 export const resumeData = {
   personal: {
     name: "Gowthaman Paramasivam",
-    title: "Senior Software Developer | Full-Stack & Desktop",
-    tagline: "Dedicated and effective senior software developer with 5+ years of practical full-stack application development & desktop software expertise.",
+    title: "Senior Engineer | Full-Stack & Desktop Applications",
+    tagline: "Dedicated and effective senior software engineer with 5+ years of practical full-stack application development & desktop software expertise.",
     email: "gowthamanp16@gmail.com",
     phone: "+91 8508772811",
-    location: "Tamil Nadu, India",
+    location: "Chennai, Tamil Nadu, India",
     github: "https://github.com",
     linkedin: "https://www.linkedin.com/in/gowthaman-paramasivam-a745ab1a3",
     portfolio: "https://yourusername.github.io/poc",
@@ -31,10 +31,37 @@ export const resumeData = {
   ],
   experience: [
     {
+      role: "Senior Engineer",
+      company: "Impiger Technologies",
+      location: "Chennai, Tamil Nadu, India",
+      period: "Nov 2024 - Present",
+      description: "Leading full-stack engineering initiatives, architecting scalable web applications, and driving technical excellence.",
+      highlights: [
+        "Architecting robust and responsive full-stack web applications utilizing React, TypeScript, and Node.js microservices.",
+        "Collaborating across engineering and product teams to translate enterprise client requirements into performant, clean-code solutions.",
+        "Driving agile sprint planning, technical design reviews, code quality benchmarks, and automated CI/CD pipeline deployments."
+      ],
+      technologies: ["React", "TypeScript", "Node.js", "Express.js", "Tailwind CSS", "Docker", "REST APIs", "Git", "Agile"]
+    },
+    {
+      role: "Software Developer",
+      company: "Eclatron Technologies Private Limited",
+      location: "Tamil Nadu, India",
+      period: "Mar 2023 - Oct 2024",
+      description: "Developed enterprise full-stack web and desktop applications, responsive frontends, and backend microservices.",
+      highlights: [
+        "Designed and implemented responsive frontend user interfaces with React, modern JavaScript/TypeScript, and modular CSS frameworks.",
+        "Built and integrated secure RESTful APIs and database services with Node.js and Express, improving query performance and data synchronization.",
+        "Conducted end-to-end unit testing, debugging, and cross-browser optimization to guarantee high reliability and sub-second page responsiveness.",
+        "Collaborated in Agile scrums, participated in code reviews, and managed releases using Git version control and Jira."
+      ],
+      technologies: ["React", "JavaScript", "TypeScript", "Node.js", "Express.js", "REST APIs", "MySQL", "MongoDB", "Git", "Jira"]
+    },
+    {
       role: "IoT Engineer",
       company: "Kalycito Infotech Private Limited",
-      location: "Coimbatore, India",
-      period: "July 2021 - Present",
+      location: "Coimbatore, Tamil Nadu, India",
+      period: "July 2021 - Feb 2023",
       description: "Spearheaded end-to-end full-stack and desktop application development using agile and test-driven methodologies.",
       highlights: [
         "Designed and developed full-stack web and desktop applications utilizing Electron, React, and Node.js following Agile project methodologies.",
@@ -48,7 +75,7 @@ export const resumeData = {
     {
       role: "Software Engineering Intern",
       company: "Kalycito Infotech Private Limited",
-      location: "Coimbatore, India",
+      location: "Coimbatore, Tamil Nadu, India",
       period: "January 2021 - June 2021",
       description: "Contributed to core JavaScript and Node.js framework modernization initiatives.",
       highlights: [
